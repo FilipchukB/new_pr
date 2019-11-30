@@ -2,9 +2,10 @@ import pygame
 
 
 class Button:
-    def __init__(self, screen):
+    def __init__(self, screen, settings):
         img = pygame.image.load('play_.jpg')
         self.scrren = screen
+        self.settings = settings
         self.image = img
         self.rect = 450
 
@@ -16,8 +17,8 @@ class Button:
 
         if self.rect < mouse[0] < 350 + self.rect:
             if self.rect < mouse[1] < 140 + self.rect:
-                print('wwwwwwwwwww')
                 if click[0] == 1:
+                    self.settings.current_level = 1
                     pygame.mixer.Sound.play(button_sound)
                     pygame.time.delay(200)
 

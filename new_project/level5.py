@@ -1,13 +1,14 @@
 import pygame
+import sys
 from settings import Settings
 
 
-class Level1:
+class Level5:
     def __init__(self, screen, settings):
         self.screen = screen
         self.settings = settings
         self.screen_rect = self.screen.get_rect()
-        self.question = pygame.image.load('level_1.jpg')
+        self.question = pygame.image.load('level5.jpg')
         self.rect_question = self.question.get_rect()
         self.rect_question.centerx = self.screen_rect.centerx
         self.rect_question.centery = self.screen_rect.centery
@@ -20,12 +21,15 @@ class Level1:
         button_sound = pygame.mixer.Sound('Sounds/button.wav')
         # print(self.settings.current_level)
         # print(self.settings.current_level == 1 and mouse[0] > self.screen_rect.centerx and mouse[1] > self.screen_rect.centery)
-        if self.settings.current_level == 1 and mouse[0] < self.screen_rect.centerx and mouse[1] > self.screen_rect.centery:
+        if self.settings.current_level == 5 and mouse[0] < self.screen_rect.centerx and mouse[
+            1] > self.screen_rect.centery:
             if click[0] == 1:
                 self.settings.current_level = 0
                 pygame.mixer.Sound.play(button_sound)
                 pygame.time.delay(200)
-        elif self.settings.current_level == 1 and mouse[0] > self.screen_rect.centerx and mouse[1] > self.screen_rect.centery:
+                sys.exit()
+        elif self.settings.current_level == 5 and mouse[0] > self.screen_rect.centerx and mouse[
+            1] > self.screen_rect.centery:
             print(click[0])
             if click[0] == 1:
                 print('qqqqqqqq')

@@ -9,4 +9,4 @@ class Settings():
         self.screen_height = 800
         self.bg_color = (0, 0, 0)
         self.current_level = 0
-
+        #self.eror = true

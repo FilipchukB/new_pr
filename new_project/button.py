@@ -30,7 +30,8 @@ class Button:
             pygame.draw.rect(ol_settings, self.act_color, (x, y, self.width, self.height))
 
         print_text(message, x + 10, y + 10, )
+
+
 def print_text(message, x, y, font_color=(0, 0, 0), font_type=(), font_size=30):
     font_type = pygame.font.Font(font_type, font_size)
     text = font_type.render(message, True, font_color)
-
