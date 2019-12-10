@@ -6,12 +6,12 @@ class Level2:
         self.screen = screen
         self.settings = settings
         self.screen_rect = self.screen.get_rect()
-        self.question = pygame.image.load('level2.jpg')
+        self.question = pygame.image.load('level_2.jpg')
         self.rect_question = self.question.get_rect()
         self.rect_question.centerx = self.screen_rect.centerx
         self.rect_question.centery = self.screen_rect.centery
         self.right_answer = pygame.image.load('level_True.jpg')
-        self.wrong_answer = pygame.image.load('level_flase.jpg')
+        self.wrong_answer = pygame.image.load('level_False.jpg')
 
     def pr_next(self):
         mouse = pygame.mouse.get_pos()
