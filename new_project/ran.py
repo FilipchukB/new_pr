@@ -13,7 +13,7 @@ from level_seven import Level7
 from level_eight import Level8
 from level_nine import Level9
 from level_ten import Level10
-
+from levels_menu import Level_menu
 
 def terminate():
     # pygame.QUIT()
@@ -25,7 +25,8 @@ def run_game():
     ol_settings = Settings()
     screen = pygame.display.set_mode((ol_settings.screen_width, ol_settings.screen_height))
     pygame.display.set_caption('Identiphishing')
-    menu = Menu(screen)
+    menu = Menu(screen, ol_settings)
+    lm = Level_menu(screen)
     button0 = Button(screen, ol_settings)
     pygame.mixer.music.load('Sounds/back.mp3')
     pygame.mixer.music.play()
@@ -45,13 +46,17 @@ def run_game():
     while True:
 
         if ol_settings.current_level == 0:
-            print('00000P')
+
             menu.blitme()
             button0.dl()
             button0.draw()
+          #  menu.level_menu()
+       # elif ol_settings.current_level == 100:
+         #   lm.blitme()
         elif ol_settings.current_level == 1:
             level1.show()
             level1.pr_next()
+          #  level1.question_0()
         elif ol_settings.current_level == 2:
             level2.show()
             level2.pr_next()
@@ -87,7 +92,7 @@ def run_game():
 
             # if event.type == pygame.KEYDOWN:
             #     ol_settings.current_level += 1
-
+        # print(pygame.mouse.get_pos())
         pygame.display.flip()
         # print(pygame.mouse.get_pos())
 
