@@ -10,8 +10,8 @@ class Level1:
         self.rect_question = self.question.get_rect()
         self.rect_question.centerx = self.screen_rect.centerx
         self.rect_question.centery = self.screen_rect.centery
-        self.right_answer = pygame.image.load('level_True.jpg')
-        self.wrong_answer = pygame.image.load('level_False.jpg')
+        self.right_answer = pygame.transform.scale(pygame.image.load('level_True.jpg'), (530, 130))
+        self.wrong_answer = pygame.transform.scale(pygame.image.load('level_False.jpg'), (530, 130))
         self.question0 = pygame.image.load('question.jpg')
         self.question_0 = pygame.transform.scale(self.question0, (60, 60))
         self.question_1 = pygame.transform.scale(self.question0, (70, 70))
@@ -27,7 +27,8 @@ class Level1:
         if self.settings.current_level == 1 and mouse[0] < self.screen_rect.centerx and mouse[
             1] > self.screen_rect.centery:
             if click[0] == 1:
-                self.settings.current_level = 0
+                self.settings.current_level = 2
+                self.settings.histori_1 = 0
                 pygame.mixer.Sound.play(button_sound)
                 pygame.time.delay(200)
         elif self.settings.current_level == 1 and mouse[0] > self.screen_rect.centerx and mouse[
@@ -36,6 +37,7 @@ class Level1:
             if click[0] == 1:
                 print('qqqqqqqq')
                 self.settings.current_level = 2
+                self.settings.histori_1 = 0
                 pygame.mixer.Sound.play(button_sound)
                 pygame.time.delay(200)
 

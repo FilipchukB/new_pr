@@ -13,7 +13,9 @@ from level_seven import Level7
 from level_eight import Level8
 from level_nine import Level9
 from level_ten import Level10
+from info import Info
 from levels_menu import Level_menu
+
 
 def terminate():
     # pygame.QUIT()
@@ -30,6 +32,7 @@ def run_game():
     button0 = Button(screen, ol_settings)
     pygame.mixer.music.load('Sounds/back.mp3')
     pygame.mixer.music.play()
+    info = Info(screen, ol_settings)
     level1 = Level1(screen, ol_settings)
     level2 = Level2(screen, ol_settings)
     level3 = Level3(screen, ol_settings)
@@ -50,13 +53,13 @@ def run_game():
             menu.blitme()
             button0.dl()
             button0.draw()
-          #  menu.level_menu()
-       # elif ol_settings.current_level == 100:
-         #   lm.blitme()
+        #  menu.level_menu()
+        # elif ol_settings.current_level == 100:
+        #   lm.blitme()
         elif ol_settings.current_level == 1:
             level1.show()
             level1.pr_next()
-          #  level1.question_0()
+        #  level1.question_0()
         elif ol_settings.current_level == 2:
             level2.show()
             level2.pr_next()
@@ -85,10 +88,14 @@ def run_game():
         elif ol_settings.current_level == 10:
             level10.show()
             level10.pr_next()
+        elif ol_settings.current_level == 11:
+            info.blitme()
+            info.info_ansver()
+            info.show_info_answer()
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 terminate()
-
 
             # if event.type == pygame.KEYDOWN:
             #     ol_settings.current_level += 1

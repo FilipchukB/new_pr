@@ -12,8 +12,8 @@ class Level3:
         self.rect_question = self.question.get_rect()
         self.rect_question.centerx = self.screen_rect.centerx
         self.rect_question.centery = self.screen_rect.centery
-        self.right_answer = pygame.image.load('level_True.jpg')
-        self.wrong_answer = pygame.image.load('level_False.jpg')
+        self.right_answer = pygame.transform.scale(pygame.image.load('level_True.jpg'), (530, 130))
+        self.wrong_answer = pygame.transform.scale(pygame.image.load('level_False.jpg'), (530, 130))
         self.img1 = pygame.image.load('g_2.jpg')
         self.img1 = pygame.transform.scale(self.img1, (700, 170))
         self.img2 = pygame.image.load('g3.jpg')
@@ -87,10 +87,16 @@ class Level3:
                 self.screen.blit(self.img1, (180, 230))
                 if click[0] == 1:
                     self.settings.current_level = 4
+                    self.settings.histori_3 = 1
             if xposimg2 < mouse[0] < nximg2:
                 if yposimg2 < mouse[1] < nyimg2:
                     self.screen.blit(self.img2, (180, 330))
+                    self.settings.current_level = 4
             if xposimg3 < mouse[0] < nximg3 and yposimg3 < mouse[1] < nyimg3:
                 self.screen.blit(self.img3, (180, 430))
+                self.settings.current_level = 4
+                self.settings.histori_3 = 0
             if xposimg < mouse[0] < nximg and yposimg < mouse[1] < nyimg:
                 self.screen.blit(self.img3, (180, 590))
+                self.settings.current_level = 4
+                self.settings.histori_3 = 0

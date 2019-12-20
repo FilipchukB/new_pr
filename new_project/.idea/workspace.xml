@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd72c933-705f-4fa9-91c7-9fe45793e494" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/levels_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_False.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/level_False.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/level_True.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/level_True.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_eight.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_eight.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_five.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_five.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_four.py" afterDir="false" />
@@ -15,9 +15,8 @@
       <change beforePath="$PROJECT_DIR$/level_ten.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_ten.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_three.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/level_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ran.py" beforeDir="false" afterPath="$PROJECT_DIR$/ran.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/st_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/st_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="button0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="level_five" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="new_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/button0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/level_five.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,18 +176,18 @@
     <list>
       <item itemvalue="Python.0" />
       <item itemvalue="Python.ran" />
-      <item itemvalue="Python.button0" />
       <item itemvalue="Python.scratch_17" />
       <item itemvalue="Python.scratch_6" />
       <item itemvalue="Python.scratch_16" />
+      <item itemvalue="Python.level_five" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ran" />
+        <item itemvalue="Python.level_five" />
         <item itemvalue="Python.scratch_16" />
         <item itemvalue="Python.scratch_6" />
         <item itemvalue="Python.scratch_17" />
-        <item itemvalue="Python.button0" />
       </list>
     </recent_temporary>
   </component>
@@ -218,30 +217,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1827" height="116" key="GridCell.Tab.0.bottom" timestamp="1576323333186">
+    <state width="1827" height="116" key="GridCell.Tab.0.bottom" timestamp="1576657162373">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576323333186" />
-    <state width="1827" height="116" key="GridCell.Tab.0.center" timestamp="1576323333184">
+    <state width="1827" height="116" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162373" />
+    <state width="1827" height="116" key="GridCell.Tab.0.center" timestamp="1576657162372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576323333184" />
-    <state width="1827" height="116" key="GridCell.Tab.0.left" timestamp="1576323333180">
+    <state width="1827" height="116" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162372" />
+    <state width="1827" height="116" key="GridCell.Tab.0.left" timestamp="1576657162372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576323333180" />
-    <state width="1827" height="116" key="GridCell.Tab.0.right" timestamp="1576323333186">
+    <state width="1827" height="116" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162372" />
+    <state width="1827" height="116" key="GridCell.Tab.0.right" timestamp="1576657162372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576323333186" />
-    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1576314595018">
+    <state width="1827" height="116" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162372" />
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1576740760747">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1576314595018" />
-    <state x="774" y="236" width="432" height="719" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576319798545">
+    <state x="651" y="381" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1576740760747" />
+    <state x="774" y="236" width="442" height="810" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576655017822">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="774" y="236" width="432" height="719" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1576319798545" />
+    <state x="774" y="236" width="442" height="810" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1576655017822" />
     <state x="658" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1576178641967">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
