@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd72c933-705f-4fa9-91c7-9fe45793e494" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_False.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/level_False.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_True.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/level_True.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_eight.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_eight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_five.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_five.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_four.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_four.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_nine.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_nine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_seven.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_seven.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_six.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_six.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_ten.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_ten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_three.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/level_two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ran.py" beforeDir="false" afterPath="$PROJECT_DIR$/ran.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.py" beforeDir="false" afterPath="$PROJECT_DIR$/info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,22 +204,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1827" height="116" key="GridCell.Tab.0.bottom" timestamp="1576657162373">
+    <state x="601" y="150" width="777" height="814" key="CommitChangelistDialog2" timestamp="1576942580699">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162373" />
-    <state width="1827" height="116" key="GridCell.Tab.0.center" timestamp="1576657162372">
+    <state x="601" y="150" width="777" height="814" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1576942580699" />
+    <state width="1827" height="116" key="GridCell.Tab.0.bottom" timestamp="1576942533832">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162372" />
-    <state width="1827" height="116" key="GridCell.Tab.0.left" timestamp="1576657162372">
+    <state width="1827" height="116" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1576942533832" />
+    <state width="1827" height="116" key="GridCell.Tab.0.center" timestamp="1576942533831">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162372" />
-    <state width="1827" height="116" key="GridCell.Tab.0.right" timestamp="1576657162372">
+    <state width="1827" height="116" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1576942533831" />
+    <state width="1827" height="116" key="GridCell.Tab.0.left" timestamp="1576942533831">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1827" height="116" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576657162372" />
+    <state width="1827" height="116" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1576942533831" />
+    <state width="1827" height="116" key="GridCell.Tab.0.right" timestamp="1576942533832">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1827" height="116" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1576942533832" />
     <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1576740760747">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
