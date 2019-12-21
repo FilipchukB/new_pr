@@ -53,9 +53,9 @@ class Info:
         print(pygame.mouse.get_pos())
         mouse = pygame.mouse.get_pos()
         if self.settings.current_level == 11:
-            if 100 < mouse[0] < 300 and 100 < mouse[1] < 300:
+            if 70 < mouse[0] < 260 and 290 < mouse[1] < 460:
                 self.screen.blit(self.pl1, (0, 0))
-            if 300 < mouse[0] < 500 and 100 < mouse[1] < 300:
+            if 320 < mouse[0] < 470 and 315 < mouse[1] < 470:
                 self.screen.blit(self.pl2, (0, 0))
 
     def blitme(self):
